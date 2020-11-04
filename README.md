@@ -14,6 +14,11 @@
 - **开发工具**：支持 Android studio、Eclipse、Intellij  
 - **部署目标**：接入联盟流量的应用   
 - **支持设备**：运行了 Android 4.0 以及以上系统的 Android 设备
+- **接入方式**：[下载 aar](https://adnet.qq.com/resource/sdk) 或 gradle。如使用 gradle，请参考下方：
+```gradle 
+implementation 'com.qq.e.union:union:4.291.1161' // 普通版本 
+implementation 'com.qq.e.union:tbs:4.291.1161' // X5 内核版本 
+```
 
 ### 术语介绍
 
