@@ -16,8 +16,8 @@
 - **支持设备**：运行了 Android 4.0 以及以上系统的 Android 设备
 - **接入方式**：[下载 aar](https://adnet.qq.com/resource/sdk) 或 gradle。如使用 gradle，请参考下方：
 ```gradle 
-implementation 'com.qq.e.union:union:4.291.1161' // 普通版本 
-implementation 'com.qq.e.union:tbs:4.291.1161' // X5 内核版本 
+implementation 'com.qq.e.union:union:版本号' // 普通版本 
+implementation 'com.qq.e.union:tbs:版本号' // X5 内核版本 
 ```
 
 ### 术语介绍
@@ -54,3 +54,5 @@ implementation 'com.qq.e.union:tbs:4.291.1161' // X5 内核版本
 |[自渲染](http://developers.adnet.qq.com/doc/android/union/union_native2_0)|开发者可以自由拼合广告素材，包括广告标题、文字描述和图片|原生广告（模板方式）不能满足开发需求，可以使用自渲染|推荐接入自渲染2.0接口|
 |[激励视频](http://developers.adnet.qq.com/doc/android/union/union_reward_video)|将短视频融入到app场景当中，成为app“任务”之一。用户观看短视频广告后可以得到一些应用内奖励|常出现在游戏的复活、登录等位置，或者网服类app的一些增值服务场景||
 |[H5-激励视频](http://developers.adnet.qq.com/doc/android/union/union_h5_reward)|在<b>H5页面</b>中加入<b>激励视频广告位</b>发起广告请求，而H5可以借助外层SDK的功能进行视频播放|如果您需要在H5页面中“嵌入”激励视频广告，该接口可以非常快速便捷地完成这一开发需求。比如开发者可以在<b>H5小游戏</b>中，嵌入激励视频广告，用户完成收看后会获得游戏奖励||
+
+## [更新日志](https://developers.adnet.qq.com/doc/android/union/union_version)
